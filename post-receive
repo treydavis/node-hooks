@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd ~/server || exit
+git reset --hard HEAD
+git pull repo.git master
