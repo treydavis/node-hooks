@@ -1,5 +1,6 @@
 #!/bin/bash
 
+source ~/.bashrc
 cd ~/server || exit
 unset GIT_DIR
 git reset --hard HEAD
