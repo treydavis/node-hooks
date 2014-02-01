@@ -4,3 +4,5 @@ cd ~/server || exit
 unset GIT_DIR
 git reset --hard HEAD
 git pull repo.git master
+npm install
+npm start
