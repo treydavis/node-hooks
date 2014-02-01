@@ -1,6 +1,7 @@
 #!/bin/bash
 
-source ~/.bashrc
+source ~/.nvm/nvm.sh
+nvm use v0.10.25
 cd ~/server || exit
 unset GIT_DIR
 git reset --hard HEAD
